@@ -153,18 +153,9 @@ dbt test       # validasi data quality (108 tests)
 
 `Never Purchased` muncul karena `int_customer_metrics` base-nya `stg_customer` (LEFT JOIN ke sales aggregate), sehingga semua customer terdaftar walau belum pernah bertransaksi.
 
-## Dokumentasi Interaktif
+## Dokumentasi Interaktif (dbt-colibri)
 
-**Untuk dbt-core:**
-
-```bash
-dbt docs generate
-dbt docs serve
-```
-
-**Untuk dbt Fusion (pakai [dbt-colibri](https://github.com/dbt-labs/dbt-colibri)):**
-
-dbt Fusion belum support `dbt docs generate` & `dbt docs serve` secara langsung, jadi pakai **dbt-colibri** sebagai alternatif. Berikut step lengkap dari install sampai dokumentasi terbuka di browser:
+[dbt-colibri](https://github.com/dbt-labs/dbt-colibri) dipakai untuk men-generate dokumentasi interaktif berisi **lineage graph**, deskripsi model, kolom, dan tests. Berikut step lengkap dari install sampai dokumentasi terbuka di browser:
 
 #### Step 1 — Install dbt-colibri
 
@@ -180,13 +171,21 @@ colibri --version
 
 #### Step 2 — Generate `catalog.json` dan `manifest.json`
 
-dbt-colibri butuh metadata project yang dihasilkan dbt. Jalankan:
+dbt-colibri butuh metadata yang dihasilkan dbt. Command-nya **berbeda** antara dbt-core dan Fusion:
+
+**Jika pakai dbt-core:**
+
+```bash
+dbt docs generate
+```
+
+**Jika pakai dbt Fusion:**
 
 ```bash
 dbt compile --write-catalog
 ```
 
-Output: `target/catalog.json` dan `target/manifest.json`.
+Output (sama untuk keduanya): `target/catalog.json` dan `target/manifest.json`.
 
 #### Step 3 — Generate Dokumentasi Static HTML
 
@@ -232,9 +231,13 @@ lsof -ti:8081 | xargs kill
 Kalau ada perubahan model dan ingin update docs:
 
 ```bash
-dbt compile --write-catalog   # regenerate metadata
-colibri generate              # regenerate HTML
-# refresh browser (Cmd+R) — tidak perlu restart server
+# dbt-core:
+dbt docs generate && colibri generate
+
+# dbt Fusion:
+dbt compile --write-catalog && colibri generate
+
+# lalu refresh browser (Cmd+R) — tidak perlu restart server
 ```
 
 ## Production Migration
@@ -252,3 +255,9 @@ Project ini didesain untuk dev/demo dengan seed. Untuk pakai data real:
 ## License
 
 MIT
+
+## Data Lineage Use Case Sales
+
+Berikut lineage lengkap dari Bronze (raw seed) → Silver (staging & intermediate) → Gold (dim, fact, mart), di-render dengan dbt-colibri:
+
+![Data Lineage Use Case Sales](docs/data-lineage.png)
