@@ -164,11 +164,77 @@ dbt docs serve
 
 **Untuk dbt Fusion (pakai [dbt-colibri](https://github.com/dbt-labs/dbt-colibri)):**
 
+dbt Fusion belum support `dbt docs generate` & `dbt docs serve` secara langsung, jadi pakai **dbt-colibri** sebagai alternatif. Berikut step lengkap dari install sampai dokumentasi terbuka di browser:
+
+#### Step 1 — Install dbt-colibri
+
+```bash
+pip install dbt-colibri
+```
+
+Verifikasi instalasi:
+
+```bash
+colibri --version
+```
+
+#### Step 2 — Generate `catalog.json` dan `manifest.json`
+
+dbt-colibri butuh metadata project yang dihasilkan dbt. Jalankan:
+
 ```bash
 dbt compile --write-catalog
+```
+
+Output: `target/catalog.json` dan `target/manifest.json`.
+
+#### Step 3 — Generate Dokumentasi Static HTML
+
+```bash
 colibri generate
-cd dist && python3 -m http.server 8081
-# buka http://localhost:8081
+```
+
+Output: folder `dist/` berisi:
+- `index.html` — Single-page app dokumentasi (self-contained, ~4 MB)
+- `colibri-manifest.json` — Data metadata project
+
+#### Step 4 — Start HTTP Server
+
+File HTML perlu di-serve via HTTP server (tidak bisa langsung dibuka via `file://` karena browser block fetch JSON):
+
+```bash
+cd dist
+python3 -m http.server 8081
+```
+
+Server akan listening di `http://localhost:8081`. Biarkan terminal ini tetap terbuka.
+
+#### Step 5 — Buka di Browser
+
+Buka tab terminal lain (atau langsung):
+
+```bash
+open http://localhost:8081
+```
+
+Atau ketik manual di address bar browser: **http://localhost:8081**
+
+#### Step 6 — Stop Server (saat selesai)
+
+Tekan `Ctrl+C` di terminal yang menjalankan `python3 -m http.server`, atau:
+
+```bash
+lsof -ti:8081 | xargs kill
+```
+
+#### Workflow Refresh
+
+Kalau ada perubahan model dan ingin update docs:
+
+```bash
+dbt compile --write-catalog   # regenerate metadata
+colibri generate              # regenerate HTML
+# refresh browser (Cmd+R) — tidak perlu restart server
 ```
 
 ## Production Migration
