@@ -1,0 +1,127 @@
+version: 2
+
+seeds:
+  # ── REFERENSI / LOOKUP ──────────────────────────────────────────────────────
+  - name: calendar
+    description: >
+      Kalender lengkap 2020–2027 (2.922 baris).
+      Grain: 1 baris = 1 tanggal. Sumber utama dim_time.
+    config:
+      column_types:
+        time_id: INT64
+        full_date: DATE
+        day_of_month: INT64
+        month_number: INT64
+        year_number: INT64
+        day_name: STRING
+        month_name: STRING
+        is_weekend: BOOL
+        quarter: STRING
+        year_month: STRING
+    columns:
+      - name: time_id
+        tests: [not_null, unique]
+      - name: full_date
+        tests: [not_null, unique]
+
+  - name: lookup_product_category
+    description: >
+      Referensi 15 subkategori produk dalam 6 kategori utama.
+      Dipakai untuk enrichment dan validasi di dim_product.
+    config:
+      column_types:
+        category_id: INT64
+        product_category: STRING
+        product_subcategory: STRING
+        category_description: STRING
+        is_active: BOOL
+    columns:
+      - name: category_id
+        tests: [not_null, unique]
+
+  - name: lookup_region_mapping
+    description: >
+      Mapping 15 kota ke provinsi, region, pulau, dan tier kota.
+      Dipakai untuk enrichment city di dim_customer dan dim_location.
+    config:
+      column_types:
+        city: STRING
+        province: STRING
+        region: STRING
+        island: STRING
+        is_tier1_city: BOOL
+    columns:
+      - name: city
+        tests: [not_null, unique]
+
+  # ── RAW DATA (Bronze layer via seed) ────────────────────────────────────────
+  - name: raw_product
+    description: >
+      Bronze — 200 baris sample data produk.
+      Di production diganti dengan source dari BigQuery raw dataset.
+    config:
+      column_types:
+        product_id_integer: INT64
+        product_name: STRING
+        product_category: STRING
+        product_subcategory: STRING
+        merk: STRING
+        unit_price: INT64
+        qty: INT64
+    columns:
+      - name: product_id_integer
+        tests: [not_null, unique]
+
+  - name: raw_customer
+    description: >
+      Bronze — 200 baris sample data customer Indonesia.
+      Di production diganti dengan source dari BigQuery raw dataset.
+    config:
+      column_types:
+        customer_id_integer: INT64
+        customer_name: STRING
+        email: STRING
+        address: STRING
+        city: STRING
+        country: STRING
+        gender: STRING
+    columns:
+      - name: customer_id_integer
+        tests: [not_null, unique]
+      - name: email
+        tests: [not_null, unique]
+
+  - name: raw_location
+    description: >
+      Bronze — 20 baris data toko/lokasi di berbagai kota Indonesia.
+      Di production diganti dengan source dari BigQuery raw dataset.
+    config:
+      column_types:
+        location_id_integer: INT64
+        shop_name: STRING
+        shop_address: STRING
+        shop_city: STRING
+        shop_province: STRING
+        shop_country: STRING
+    columns:
+      - name: location_id_integer
+        tests: [not_null, unique]
+
+  - name: raw_sales
+    description: >
+      Bronze — 200 baris sample transaksi penjualan 2022-2024.
+      Di production diganti dengan source dari BigQuery raw dataset.
+    config:
+      column_types:
+        sales_id_integer: INT64
+        product_id: INT64
+        customer_id: INT64
+        time_id: INT64
+        location_id: INT64
+        item_solds: INT64
+        discount: INT64
+        sales_amount: INT64
+        sales_date: DATETIME
+    columns:
+      - name: sales_id_integer
+        tests: [not_null, unique]

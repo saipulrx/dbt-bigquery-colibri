@@ -1,0 +1,111 @@
+version: 2
+
+models:
+  - name: dim_product
+    description: >
+      Gold layer — Dimensi produk lengkap dengan price_tier.
+      Grain: 1 baris = 1 produk unik.
+    columns:
+      - name: product_sk
+        tests: [not_null, unique]
+      - name: product_id
+        tests: [not_null, unique]
+      - name: product_name
+        tests: [not_null]
+      - name: price_tier
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Budget', 'Mid-range', 'Premium', 'Luxury']
+
+  - name: dim_customer
+    description: >
+      Gold layer — Dimensi customer enriched dengan lifetime metrics
+      dan segmentasi RFM. Grain: 1 baris = 1 customer unik.
+    columns:
+      - name: customer_sk
+        tests: [not_null, unique]
+      - name: customer_id
+        tests: [not_null, unique]
+      - name: customer_value_segment
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['High Value', 'Mid Value', 'Low Value', 'Never Purchased']
+      - name: recency_segment
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Active', 'At Risk', 'Lapsed', 'Churned', 'Never Purchased']
+
+  - name: dim_time
+    description: >
+      Gold layer — Dimensi waktu dengan quarter, year_month, is_weekend.
+      Grain: 1 baris = 1 tanggal unik.
+    columns:
+      - name: time_sk
+        tests: [not_null, unique]
+      - name: time_id
+        tests: [not_null, unique]
+      - name: full_date
+        tests: [not_null]
+      - name: quarter
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Q1', 'Q2', 'Q3', 'Q4']
+
+  - name: dim_location
+    description: >
+      Gold layer — Dimensi lokasi toko.
+      Grain: 1 baris = 1 toko unik.
+    columns:
+      - name: location_sk
+        tests: [not_null, unique]
+      - name: location_id
+        tests: [not_null, unique]
+      - name: shop_name
+        tests: [not_null]
+
+  - name: fct_sales
+    description: >
+      Gold layer — Fakta transaksi penjualan.
+      Grain: 1 baris = 1 transaksi sales unik.
+      Join ke semua dim tables via surrogate key.
+    columns:
+      - name: sales_sk
+        tests: [not_null, unique]
+      - name: sales_id
+        tests: [not_null, unique]
+      - name: product_sk
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: product_sk
+      - name: customer_sk
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_sk
+      - name: time_sk
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_time')
+                field: time_sk
+      - name: location_sk
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_location')
+                field: location_sk
+      - name: gross_sales_amount
+        tests: [not_null]
+      - name: net_sales_amount
+        tests: [not_null]

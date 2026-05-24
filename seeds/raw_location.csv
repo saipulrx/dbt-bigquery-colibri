@@ -1,0 +1,21 @@
+location_id_integer,shop_name,shop_address,shop_city,shop_province,shop_country
+1,Pusat Maju Jakarta,Jl. Protokol Jakarta No.71,Jakarta,DKI Jakarta,Indonesia
+2,Warung Makmur Bandung,Jl. Besar Bandung No.51,Bandung,Jawa Barat,Indonesia
+3,Lapak Lestari Batam,Jl. Protokol Batam No.74,Batam,Kepulauan Riau,Indonesia
+4,Gerai Maju Surabaya,Jl. Raya Surabaya No.58,Surabaya,Jawa Timur,Indonesia
+5,Pusat Abadi Yogyakarta,Jl. Utama Yogyakarta No.99,Yogyakarta,DI Yogyakarta,Indonesia
+6,Kios Jaya Bandung,Jl. Raya Bandung No.67,Bandung,Jawa Barat,Indonesia
+7,Store Abadi Bandung,Jl. Utama Bandung No.42,Bandung,Jawa Barat,Indonesia
+8,Outlet Maju Tangerang,Jl. Besar Tangerang No.11,Tangerang,Banten,Indonesia
+9,Outlet Mandiri Semarang,Jl. Utama Semarang No.81,Semarang,Jawa Tengah,Indonesia
+10,Warung Abadi Semarang,Jl. Utama Semarang No.22,Semarang,Jawa Tengah,Indonesia
+11,Pusat Jaya Pekanbaru,Jl. Raya Pekanbaru No.11,Pekanbaru,Riau,Indonesia
+12,Store Sejahtera Jakarta,Jl. Protokol Jakarta No.80,Jakarta,DKI Jakarta,Indonesia
+13,Toko Prima Pekanbaru,Jl. Besar Pekanbaru No.83,Pekanbaru,Riau,Indonesia
+14,Lapak Sejahtera Semarang,Jl. Protokol Semarang No.39,Semarang,Jawa Tengah,Indonesia
+15,Warung Jaya Yogyakarta,Jl. Utama Yogyakarta No.57,Yogyakarta,DI Yogyakarta,Indonesia
+16,Lapak Prima Denpasar,Jl. Utama Denpasar No.44,Denpasar,Bali,Indonesia
+17,Gerai Maju Malang,Jl. Besar Malang No.94,Malang,Jawa Timur,Indonesia
+18,Pusat Lestari Bekasi,Jl. Utama Bekasi No.98,Bekasi,Jawa Barat,Indonesia
+19,Warung Maju Makassar,Jl. Utama Makassar No.60,Makassar,Sulawesi Selatan,Indonesia
+20,Store Prima Surabaya,Jl. Utama Surabaya No.19,Surabaya,Jawa Timur,Indonesia

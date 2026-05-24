@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_product
+    description: "Staging product — rename, cast, filter null dari raw_product"
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+      - name: unit_price
+        tests: [not_null]
+      - name: brand
+        tests: [not_null]
+
+  - name: stg_customer
+    description: "Staging customer — standardisasi nama kolom dan format email"
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+      - name: email
+        tests: [not_null]
+      - name: gender
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['M', 'F', 'MALE', 'FEMALE', 'OTHER']
+
+  - name: stg_time
+    description: "Staging dimensi waktu — cast date, tambah flag is_weekend"
+    columns:
+      - name: time_id
+        tests: [not_null, unique]
+      - name: full_date
+        tests: [not_null]
+      - name: year_number
+        tests: [not_null]
+
+  - name: stg_location
+    description: "Staging lokasi toko — standardisasi nama kolom"
+    columns:
+      - name: location_id
+        tests: [not_null, unique]
+      - name: shop_name
+        tests: [not_null]
+
+  - name: stg_sales
+    description: "Staging transaksi sales — cast measures, hitung net_sales_amount"
+    columns:
+      - name: sales_id
+        tests: [not_null, unique]
+      - name: product_id
+        tests: [not_null]
+      - name: customer_id
+        tests: [not_null]
+      - name: time_id
+        tests: [not_null]
+      - name: location_id
+        tests: [not_null]
+      - name: sales_amount
+        tests: [not_null]
+      - name: net_sales_amount
+        tests: [not_null]

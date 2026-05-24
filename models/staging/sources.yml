@@ -1,0 +1,28 @@
+version: 2
+
+# CATATAN:
+# Untuk development/demo  → gunakan seed (dbt seed dulu, lalu ref ke raw_*)
+# Untuk production        → uncomment blok source ini dan ganti ref() di stg_* models
+#                           dari ref('raw_*') ke source('raw', 'raw_*')
+# Tests dihapus karena dataset `raw` belum ada di dev/demo environment.
+# Saat aktifkan production, tambahkan kembali tests [not_null, unique] di kolom natural key.
+
+sources:
+  - name: raw
+    database: "{{ var('raw_database', 'your_gcp_project') }}"
+    schema: raw
+    description: >
+      Bronze layer — raw data dari source systems di BigQuery.
+      Digunakan di environment production.
+      Di environment dev/demo, data ini digantikan oleh seed raw_* files.
+    tables:
+      - name: raw_product
+        description: "Raw product data dari source system"
+      - name: raw_customer
+        description: "Raw customer data dari source system"
+      - name: raw_time
+        description: "Raw date dimension dari source system"
+      - name: raw_location
+        description: "Raw data toko dari source system"
+      - name: raw_sales
+        description: "Raw transaksi penjualan dari source system"

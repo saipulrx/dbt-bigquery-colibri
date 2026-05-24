@@ -1,0 +1,16 @@
+city,province,region,island,is_tier1_city
+Jakarta,DKI Jakarta,Jabodetabek,Jawa,true
+Surabaya,Jawa Timur,Jawa Timur,Jawa,true
+Bandung,Jawa Barat,Jawa Barat,Jawa,true
+Medan,Sumatera Utara,Sumatera Utara,Sumatera,true
+Semarang,Jawa Tengah,Jawa Tengah,Jawa,true
+Makassar,Sulawesi Selatan,Sulawesi Selatan,Sulawesi,true
+Denpasar,Bali,Bali,Bali,true
+Yogyakarta,DI Yogyakarta,Jawa Tengah,Jawa,true
+Palembang,Sumatera Selatan,Sumatera Selatan,Sumatera,false
+Malang,Jawa Timur,Jawa Timur,Jawa,false
+Pekanbaru,Riau,Sumatera Tengah,Sumatera,false
+Batam,Kepulauan Riau,Sumatera Tengah,Sumatera,false
+Bogor,Jawa Barat,Jabodetabek,Jawa,false
+Bekasi,Jawa Barat,Jabodetabek,Jawa,false
+Tangerang,Banten,Jabodetabek,Jawa,false

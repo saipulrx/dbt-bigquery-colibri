@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: mart_revenue_daily
+    description: >
+      Gold mart — Revenue harian per lokasi dan kategori produk.
+      Grain: 1 baris = 1 kombinasi (tanggal, toko, kategori produk).
+      Dipakai: dashboard Revenue Overview di BI tool.
+    columns:
+      - name: full_date
+        tests: [not_null]
+      - name: net_revenue
+        tests: [not_null]
+      - name: total_transactions
+        tests: [not_null]
+
+  - name: mart_product_performance
+    description: >
+      Gold mart — Performa produk per bulan.
+      Grain: 1 baris = 1 produk per bulan.
+      Dipakai: dashboard Product Performance & Top Seller.
+    columns:
+      - name: year_month
+        tests: [not_null]
+      - name: product_id
+        tests: [not_null]
+      - name: net_revenue
+        tests: [not_null]
+      - name: discount_rate
+        tests: [not_null]
+
+  - name: mart_customer_cohort
+    description: >
+      Gold mart — Analisis retensi customer per cohort.
+      Grain: 1 baris = 1 cohort_month x months_since_first_purchase.
+      Dipakai: dashboard Customer Retention & LTV.
+    columns:
+      - name: cohort_month
+        tests: [not_null]
+      - name: months_since_first_purchase
+        tests: [not_null]
+      - name: retention_rate
+        tests: [not_null]

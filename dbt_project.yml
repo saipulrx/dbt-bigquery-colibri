@@ -1,0 +1,43 @@
+name: 'sales_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'sales_project'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+vars:
+  raw_database: 'dwh-bootcamp-bigquery'   # ganti dengan GCP project ID kamu
+
+seeds:
+  sales_project:
+    +schema: seeds                    # → dataset: seeds (terpisah dari marts)
+    calendar:
+      +quote_columns: false
+    lookup_product_category:
+      +quote_columns: false
+    lookup_region_mapping:
+      +quote_columns: false
+
+models:
+  sales_project:
+
+    # Silver: Staging — view agar selalu segar
+    staging:
+      +materialized: view
+      +schema: staging              # → dataset: staging
+
+    # Silver: Intermediate — ephemeral, tidak ada tabel fisik
+    intermediate:
+      +materialized: ephemeral
+
+    # Gold: Dim, Fact, Mart — tabel fisik di dataset marts
+    marts:
+      +materialized: table
+      +schema: marts                # → dataset: marts
+      core:
+        +materialized: table
+      aggregates:
+        +materialized: table

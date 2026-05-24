@@ -1,0 +1,77 @@
+version: 2
+
+models:
+  - name: int_sales_enriched
+    description: >
+      Silver layer — Sales transaksi yang sudah di-join dengan semua
+      staging master (product, customer, time, location).
+      Grain: 1 baris = 1 transaksi sales.
+      Materialized: ephemeral (di-inline sebagai CTE di downstream).
+    columns:
+      - name: sales_id
+        description: "Natural key dari transaksi sales."
+        tests: [not_null, unique]
+      - name: product_id
+        description: "Foreign key ke stg_product."
+        tests: [not_null]
+      - name: customer_id
+        description: "Foreign key ke stg_customer."
+        tests: [not_null]
+      - name: time_id
+        description: "Foreign key ke stg_time."
+        tests: [not_null]
+      - name: location_id
+        description: "Foreign key ke stg_location."
+        tests: [not_null]
+      - name: sales_date
+        description: "Tanggal transaksi."
+        tests: [not_null]
+      - name: sales_amount
+        description: "Gross sales amount (sebelum diskon)."
+        tests: [not_null]
+      - name: net_sales_amount
+        description: "Net sales = sales_amount - discount_amount."
+        tests: [not_null]
+      - name: customer_order_sequence
+        description: "Urutan order ke-berapa per customer (1 = first purchase)."
+        tests: [not_null]
+      - name: is_repeat_purchase
+        description: "Flag boolean: true jika bukan transaksi pertama customer."
+        tests: [not_null]
+
+  - name: int_customer_metrics
+    description: >
+      Silver layer — Lifetime metrics per customer.
+      Base = stg_customer agar semua customer muncul (termasuk yang
+      belum pernah bertransaksi → segment 'Never Purchased').
+      Grain: 1 baris = 1 customer unik.
+      Materialized: ephemeral.
+    columns:
+      - name: customer_id
+        description: "Natural key dari customer (dari stg_customer)."
+        tests: [not_null, unique]
+      - name: total_orders
+        description: "Jumlah transaksi distinct per customer (0 untuk non-buyer)."
+        tests: [not_null]
+      - name: total_items_bought
+        description: "Total qty item yang dibeli (0 untuk non-buyer)."
+        tests: [not_null]
+      - name: gross_revenue
+        description: "Total revenue sebelum diskon (0 untuk non-buyer)."
+        tests: [not_null]
+      - name: net_revenue
+        description: "Total revenue setelah diskon (0 untuk non-buyer)."
+        tests: [not_null]
+      - name: recency_segment
+        description: >
+          Segmentasi customer berdasarkan recency:
+          Never Purchased (belum pernah beli), Active (≤30 hari),
+          At Risk (31-90 hari), Lapsed (91-180 hari), Churned (>180 hari).
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Active', 'At Risk', 'Lapsed', 'Churned', 'Never Purchased']
+      - name: is_never_purchased
+        description: "Flag boolean: true jika customer belum pernah bertransaksi."
+        tests: [not_null]

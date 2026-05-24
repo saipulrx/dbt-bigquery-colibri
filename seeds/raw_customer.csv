@@ -1,0 +1,201 @@
+customer_id_integer,customer_name,email,address,city,country,gender
+1,Ical Putri,ical.putri851@email.com,Jl. Diponegoro No.116,Tangerang,Indonesia,M
+2,Sri Firmansyah,sri.firmansyah584@email.com,Jl. Diponegoro No.8,Malang,Indonesia,F
+3,Bayu Pratama,bayu.pratama187@email.com,Jl. Diponegoro No.67,Yogyakarta,Indonesia,M
+4,Rina Sari,rina.sari902@email.com,Jl. Merdeka No.3,Malang,Indonesia,F
+5,Fitri Setiawan,fitri.setiawan88@email.com,Jl. Ahmad Yani No.143,Medan,Indonesia,F
+6,Ratna Putri,ratna.putri708@email.com,Jl. Ahmad Yani No.5,Yogyakarta,Indonesia,F
+7,Ahmad Nugroho,ahmad.nugroho227@email.com,Jl. Diponegoro No.170,Denpasar,Indonesia,M
+8,Ayu Hartono,ayu.hartono485@email.com,Jl. Ahmad Yani No.191,Palembang,Indonesia,F
+9,Doni Pratama,doni.pratama361@email.com,Jl. Diponegoro No.79,Batam,Indonesia,F
+10,Dian Putri,dian.putri124@email.com,Jl. Diponegoro No.31,Batam,Indonesia,M
+11,Yusuf Hidayat,yusuf.hidayat197@email.com,Jl. Diponegoro No.186,Medan,Indonesia,F
+12,Ayu Purnama,ayu.purnama612@email.com,Jl. Gatot Subroto No.76,Semarang,Indonesia,M
+13,Sri Hartono,sri.hartono184@email.com,Jl. Merdeka No.33,Semarang,Indonesia,M
+14,Dian Wijaya,dian.wijaya998@email.com,Jl. Gatot Subroto No.164,Jakarta,Indonesia,F
+15,Ical Suryadi,ical.suryadi106@email.com,Jl. Merdeka No.73,Bekasi,Indonesia,M
+16,Bayu Suryadi,bayu.suryadi452@email.com,Jl. Sudirman No.65,Makassar,Indonesia,M
+17,Ical Suryadi,ical.suryadi117@email.com,Jl. Ahmad Yani No.126,Bekasi,Indonesia,M
+18,Ahmad Wijaya,ahmad.wijaya156@email.com,Jl. Sudirman No.64,Bandung,Indonesia,F
+19,Dewi Lestari,dewi.lestari621@email.com,Jl. Merdeka No.98,Malang,Indonesia,M
+20,Lina Firmansyah,lina.firmansyah305@email.com,Jl. Diponegoro No.146,Bekasi,Indonesia,F
+21,Wahyu Wijaya,wahyu.wijaya625@email.com,Jl. Gatot Subroto No.161,Batam,Indonesia,M
+22,Andi Sari,andi.sari677@email.com,Jl. Gatot Subroto No.45,Surabaya,Indonesia,M
+23,Doni Susanto,doni.susanto161@email.com,Jl. Ahmad Yani No.177,Jakarta,Indonesia,F
+24,Wahyu Suryadi,wahyu.suryadi299@email.com,Jl. Diponegoro No.181,Jakarta,Indonesia,M
+25,Fajar Firmansyah,fajar.firmansyah73@email.com,Jl. Diponegoro No.161,Pekanbaru,Indonesia,M
+26,Ayu Setiawan,ayu.setiawan436@email.com,Jl. Gatot Subroto No.69,Surabaya,Indonesia,M
+27,Citra Kusuma,citra.kusuma74@email.com,Jl. Diponegoro No.153,Jakarta,Indonesia,M
+28,Yusuf Nugroho,yusuf.nugroho450@email.com,Jl. Diponegoro No.180,Surabaya,Indonesia,F
+29,Maya Sari,maya.sari513@email.com,Jl. Ahmad Yani No.21,Palembang,Indonesia,F
+30,Wahyu Wijaya,wahyu.wijaya911@email.com,Jl. Merdeka No.65,Denpasar,Indonesia,F
+31,Budi Susanto,budi.susanto235@email.com,Jl. Diponegoro No.148,Pekanbaru,Indonesia,M
+32,Siti Hidayat,siti.hidayat482@email.com,Jl. Diponegoro No.47,Palembang,Indonesia,F
+33,Ayu Lestari,ayu.lestari651@email.com,Jl. Sudirman No.121,Bekasi,Indonesia,F
+34,Hendra Lestari,hendra.lestari342@email.com,Jl. Gatot Subroto No.85,Makassar,Indonesia,M
+35,Agus Suryadi,agus.suryadi296@email.com,Jl. Merdeka No.10,Pekanbaru,Indonesia,F
+36,Lina Susanto,lina.susanto323@email.com,Jl. Sudirman No.198,Semarang,Indonesia,F
+37,Maya Purnama,maya.purnama845@email.com,Jl. Ahmad Yani No.14,Jakarta,Indonesia,F
+38,Andi Purnama,andi.purnama371@email.com,Jl. Ahmad Yani No.195,Malang,Indonesia,F
+39,Siti Setiawan,siti.setiawan274@email.com,Jl. Diponegoro No.113,Palembang,Indonesia,M
+40,Yuni Suryadi,yuni.suryadi125@email.com,Jl. Gatot Subroto No.80,Jakarta,Indonesia,M
+41,Doni Santoso,doni.santoso566@email.com,Jl. Gatot Subroto No.30,Denpasar,Indonesia,M
+42,Lina Rahayu,lina.rahayu664@email.com,Jl. Ahmad Yani No.184,Bekasi,Indonesia,M
+43,Fajar Purnama,fajar.purnama723@email.com,Jl. Ahmad Yani No.121,Semarang,Indonesia,F
+44,Sri Firmansyah,sri.firmansyah565@email.com,Jl. Gatot Subroto No.154,Bandung,Indonesia,F
+45,Fitri Kusuma,fitri.kusuma885@email.com,Jl. Ahmad Yani No.88,Surabaya,Indonesia,F
+46,Pras Purnama,pras.purnama274@email.com,Jl. Diponegoro No.186,Bekasi,Indonesia,M
+47,Fajar Suryadi,fajar.suryadi887@email.com,Jl. Merdeka No.124,Bandung,Indonesia,F
+48,Hendra Pratama,hendra.pratama566@email.com,Jl. Ahmad Yani No.83,Bogor,Indonesia,F
+49,Ical Setiawan,ical.setiawan715@email.com,Jl. Gatot Subroto No.199,Medan,Indonesia,F
+50,Agus Wijaya,agus.wijaya326@email.com,Jl. Ahmad Yani No.99,Batam,Indonesia,F
+51,Eko Kusuma,eko.kusuma508@email.com,Jl. Merdeka No.152,Jakarta,Indonesia,M
+52,Rina Rahayu,rina.rahayu896@email.com,Jl. Sudirman No.135,Bekasi,Indonesia,F
+53,Pras Firmansyah,pras.firmansyah16@email.com,Jl. Ahmad Yani No.168,Batam,Indonesia,M
+54,Rizki Susanto,rizki.susanto481@email.com,Jl. Diponegoro No.160,Bogor,Indonesia,F
+55,Tini Wibowo,tini.wibowo666@email.com,Jl. Merdeka No.98,Surabaya,Indonesia,F
+56,Rina Suryadi,rina.suryadi894@email.com,Jl. Merdeka No.18,Palembang,Indonesia,M
+57,Sri Nugroho,sri.nugroho233@email.com,Jl. Ahmad Yani No.26,Batam,Indonesia,M
+58,Ratna Rahayu,ratna.rahayu455@email.com,Jl. Sudirman No.12,Bandung,Indonesia,F
+59,Rina Wijaya,rina.wijaya301@email.com,Jl. Ahmad Yani No.38,Makassar,Indonesia,F
+60,Sri Purnama,sri.purnama422@email.com,Jl. Gatot Subroto No.45,Malang,Indonesia,M
+61,Ahmad Wibowo,ahmad.wibowo635@email.com,Jl. Ahmad Yani No.150,Pekanbaru,Indonesia,M
+62,Rizki Putri,rizki.putri473@email.com,Jl. Ahmad Yani No.66,Pekanbaru,Indonesia,F
+63,Eko Santoso,eko.santoso921@email.com,Jl. Diponegoro No.174,Bogor,Indonesia,F
+64,Doni Hidayat,doni.hidayat76@email.com,Jl. Merdeka No.77,Yogyakarta,Indonesia,F
+65,Rini Lestari,rini.lestari707@email.com,Jl. Diponegoro No.51,Semarang,Indonesia,F
+66,Maya Suryadi,maya.suryadi110@email.com,Jl. Merdeka No.92,Medan,Indonesia,F
+67,Ayu Nugroho,ayu.nugroho717@email.com,Jl. Ahmad Yani No.71,Semarang,Indonesia,M
+68,Budi Wijaya,budi.wijaya933@email.com,Jl. Diponegoro No.199,Malang,Indonesia,F
+69,Hadi Putri,hadi.putri622@email.com,Jl. Gatot Subroto No.163,Bogor,Indonesia,F
+70,Andi Sari,andi.sari695@email.com,Jl. Sudirman No.161,Bogor,Indonesia,M
+71,Rini Wijaya,rini.wijaya317@email.com,Jl. Sudirman No.149,Bogor,Indonesia,F
+72,Hendra Kusuma,hendra.kusuma93@email.com,Jl. Diponegoro No.192,Tangerang,Indonesia,F
+73,Agus Hidayat,agus.hidayat206@email.com,Jl. Merdeka No.129,Bandung,Indonesia,F
+74,Pras Sari,pras.sari851@email.com,Jl. Ahmad Yani No.76,Bandung,Indonesia,F
+75,Yusuf Pratama,yusuf.pratama824@email.com,Jl. Sudirman No.37,Surabaya,Indonesia,F
+76,Ratna Putri,ratna.putri881@email.com,Jl. Merdeka No.94,Pekanbaru,Indonesia,F
+77,Ahmad Wibowo,ahmad.wibowo15@email.com,Jl. Ahmad Yani No.95,Semarang,Indonesia,M
+78,Eko Sari,eko.sari599@email.com,Jl. Sudirman No.173,Denpasar,Indonesia,F
+79,Sri Suryadi,sri.suryadi26@email.com,Jl. Merdeka No.57,Malang,Indonesia,F
+80,Rini Susanto,rini.susanto651@email.com,Jl. Diponegoro No.167,Bekasi,Indonesia,F
+81,Agus Rahayu,agus.rahayu144@email.com,Jl. Diponegoro No.127,Jakarta,Indonesia,M
+82,Dewi Rahayu,dewi.rahayu241@email.com,Jl. Ahmad Yani No.117,Tangerang,Indonesia,M
+83,Hendra Lestari,hendra.lestari602@email.com,Jl. Ahmad Yani No.168,Batam,Indonesia,M
+84,Dewi Suryadi,dewi.suryadi631@email.com,Jl. Sudirman No.177,Denpasar,Indonesia,F
+85,Hendra Setiawan,hendra.setiawan455@email.com,Jl. Diponegoro No.26,Yogyakarta,Indonesia,M
+86,Eko Hartono,eko.hartono558@email.com,Jl. Sudirman No.102,Tangerang,Indonesia,F
+87,Dian Setiawan,dian.setiawan992@email.com,Jl. Sudirman No.170,Surabaya,Indonesia,F
+88,Andi Santoso,andi.santoso52@email.com,Jl. Gatot Subroto No.33,Bogor,Indonesia,F
+89,Hadi Setiawan,hadi.setiawan71@email.com,Jl. Merdeka No.56,Bekasi,Indonesia,M
+90,Citra Putri,citra.putri337@email.com,Jl. Merdeka No.1,Bogor,Indonesia,M
+91,Dian Kusuma,dian.kusuma134@email.com,Jl. Gatot Subroto No.29,Palembang,Indonesia,F
+92,Eko Santoso,eko.santoso135@email.com,Jl. Gatot Subroto No.151,Jakarta,Indonesia,F
+93,Rina Santoso,rina.santoso179@email.com,Jl. Gatot Subroto No.190,Semarang,Indonesia,M
+94,Agus Purnama,agus.purnama117@email.com,Jl. Ahmad Yani No.115,Batam,Indonesia,M
+95,Ratna Hartono,ratna.hartono526@email.com,Jl. Ahmad Yani No.129,Malang,Indonesia,M
+96,Sri Wijaya,sri.wijaya745@email.com,Jl. Ahmad Yani No.165,Bogor,Indonesia,F
+97,Budi Wijaya,budi.wijaya491@email.com,Jl. Ahmad Yani No.176,Bekasi,Indonesia,F
+98,Dewi Suryadi,dewi.suryadi730@email.com,Jl. Sudirman No.21,Tangerang,Indonesia,F
+99,Rina Kusuma,rina.kusuma68@email.com,Jl. Merdeka No.163,Bandung,Indonesia,F
+100,Ayu Pratama,ayu.pratama391@email.com,Jl. Ahmad Yani No.130,Malang,Indonesia,F
+101,Wahyu Lestari,wahyu.lestari102@email.com,Jl. Merdeka No.185,Bogor,Indonesia,M
+102,Ical Setiawan,ical.setiawan441@email.com,Jl. Ahmad Yani No.87,Yogyakarta,Indonesia,M
+103,Citra Firmansyah,citra.firmansyah409@email.com,Jl. Diponegoro No.110,Denpasar,Indonesia,M
+104,Rina Sari,rina.sari384@email.com,Jl. Sudirman No.24,Bandung,Indonesia,F
+105,Citra Susanto,citra.susanto96@email.com,Jl. Diponegoro No.34,Denpasar,Indonesia,M
+106,Doni Wijaya,doni.wijaya601@email.com,Jl. Sudirman No.106,Palembang,Indonesia,F
+107,Hendra Lestari,hendra.lestari889@email.com,Jl. Diponegoro No.154,Tangerang,Indonesia,M
+108,Fajar Hartono,fajar.hartono107@email.com,Jl. Gatot Subroto No.169,Malang,Indonesia,M
+109,Bayu Putri,bayu.putri868@email.com,Jl. Merdeka No.95,Surabaya,Indonesia,F
+110,Dewi Sari,dewi.sari588@email.com,Jl. Merdeka No.197,Medan,Indonesia,F
+111,Citra Santoso,citra.santoso624@email.com,Jl. Sudirman No.47,Tangerang,Indonesia,F
+112,Dian Nugroho,dian.nugroho944@email.com,Jl. Sudirman No.47,Makassar,Indonesia,F
+113,Ical Kusuma,ical.kusuma580@email.com,Jl. Sudirman No.37,Pekanbaru,Indonesia,F
+114,Yusuf Santoso,yusuf.santoso94@email.com,Jl. Ahmad Yani No.108,Batam,Indonesia,M
+115,Lina Pratama,lina.pratama162@email.com,Jl. Diponegoro No.199,Makassar,Indonesia,F
+116,Ayu Susanto,ayu.susanto905@email.com,Jl. Gatot Subroto No.194,Jakarta,Indonesia,M
+117,Wahyu Wijaya,wahyu.wijaya691@email.com,Jl. Ahmad Yani No.170,Surabaya,Indonesia,F
+118,Agus Suryadi,agus.suryadi622@email.com,Jl. Diponegoro No.56,Yogyakarta,Indonesia,F
+119,Ratna Purnama,ratna.purnama117@email.com,Jl. Sudirman No.73,Makassar,Indonesia,F
+120,Eko Suryadi,eko.suryadi540@email.com,Jl. Sudirman No.57,Pekanbaru,Indonesia,F
+121,Maya Wijaya,maya.wijaya8@email.com,Jl. Gatot Subroto No.197,Medan,Indonesia,F
+122,Rizki Sari,rizki.sari297@email.com,Jl. Sudirman No.128,Makassar,Indonesia,M
+123,Yusuf Lestari,yusuf.lestari180@email.com,Jl. Merdeka No.181,Bandung,Indonesia,F
+124,Sri Purnama,sri.purnama573@email.com,Jl. Sudirman No.102,Bekasi,Indonesia,F
+125,Ical Wijaya,ical.wijaya447@email.com,Jl. Sudirman No.81,Jakarta,Indonesia,F
+126,Ayu Lestari,ayu.lestari588@email.com,Jl. Diponegoro No.30,Denpasar,Indonesia,F
+127,Maya Santoso,maya.santoso990@email.com,Jl. Merdeka No.118,Makassar,Indonesia,M
+128,Citra Hartono,citra.hartono91@email.com,Jl. Gatot Subroto No.112,Denpasar,Indonesia,M
+129,Ayu Wibowo,ayu.wibowo537@email.com,Jl. Diponegoro No.191,Surabaya,Indonesia,F
+130,Rina Putri,rina.putri342@email.com,Jl. Sudirman No.131,Bogor,Indonesia,M
+131,Rini Rahayu,rini.rahayu544@email.com,Jl. Diponegoro No.90,Palembang,Indonesia,M
+132,Yusuf Kusuma,yusuf.kusuma242@email.com,Jl. Diponegoro No.51,Surabaya,Indonesia,M
+133,Nur Kusuma,nur.kusuma779@email.com,Jl. Gatot Subroto No.198,Bogor,Indonesia,M
+134,Rini Suryadi,rini.suryadi476@email.com,Jl. Merdeka No.165,Bogor,Indonesia,F
+135,Rini Pratama,rini.pratama885@email.com,Jl. Gatot Subroto No.113,Pekanbaru,Indonesia,F
+136,Ahmad Suryadi,ahmad.suryadi453@email.com,Jl. Diponegoro No.152,Pekanbaru,Indonesia,F
+137,Siti Hartono,siti.hartono520@email.com,Jl. Ahmad Yani No.116,Surabaya,Indonesia,F
+138,Siti Wijaya,siti.wijaya378@email.com,Jl. Sudirman No.166,Bekasi,Indonesia,F
+139,Ical Susanto,ical.susanto630@email.com,Jl. Ahmad Yani No.149,Malang,Indonesia,F
+140,Doni Wijaya,doni.wijaya461@email.com,Jl. Diponegoro No.155,Tangerang,Indonesia,M
+141,Bayu Purnama,bayu.purnama155@email.com,Jl. Sudirman No.88,Jakarta,Indonesia,F
+142,Tini Susanto,tini.susanto517@email.com,Jl. Sudirman No.64,Pekanbaru,Indonesia,M
+143,Tini Firmansyah,tini.firmansyah450@email.com,Jl. Diponegoro No.96,Palembang,Indonesia,M
+144,Pras Nugroho,pras.nugroho397@email.com,Jl. Merdeka No.14,Denpasar,Indonesia,F
+145,Hadi Pratama,hadi.pratama68@email.com,Jl. Merdeka No.174,Makassar,Indonesia,M
+146,Maya Nugroho,maya.nugroho259@email.com,Jl. Diponegoro No.21,Batam,Indonesia,M
+147,Ayu Kusuma,ayu.kusuma939@email.com,Jl. Ahmad Yani No.34,Makassar,Indonesia,F
+148,Wahyu Susanto,wahyu.susanto318@email.com,Jl. Diponegoro No.33,Palembang,Indonesia,F
+149,Eko Purnama,eko.purnama96@email.com,Jl. Merdeka No.93,Pekanbaru,Indonesia,F
+150,Budi Hartono,budi.hartono317@email.com,Jl. Diponegoro No.197,Bandung,Indonesia,M
+151,Bayu Setiawan,bayu.setiawan232@email.com,Jl. Sudirman No.76,Bandung,Indonesia,M
+152,Ical Rahayu,ical.rahayu520@email.com,Jl. Diponegoro No.197,Bogor,Indonesia,M
+153,Wahyu Kusuma,wahyu.kusuma612@email.com,Jl. Gatot Subroto No.47,Denpasar,Indonesia,M
+154,Citra Hidayat,citra.hidayat739@email.com,Jl. Ahmad Yani No.94,Yogyakarta,Indonesia,M
+155,Eko Putri,eko.putri993@email.com,Jl. Ahmad Yani No.60,Yogyakarta,Indonesia,F
+156,Doni Putri,doni.putri317@email.com,Jl. Gatot Subroto No.95,Bogor,Indonesia,F
+157,Eko Firmansyah,eko.firmansyah473@email.com,Jl. Ahmad Yani No.129,Bogor,Indonesia,F
+158,Fitri Lestari,fitri.lestari990@email.com,Jl. Merdeka No.36,Bandung,Indonesia,M
+159,Ical Sari,ical.sari54@email.com,Jl. Diponegoro No.142,Pekanbaru,Indonesia,F
+160,Pras Rahayu,pras.rahayu729@email.com,Jl. Diponegoro No.22,Bekasi,Indonesia,M
+161,Ratna Hidayat,ratna.hidayat280@email.com,Jl. Ahmad Yani No.24,Yogyakarta,Indonesia,M
+162,Pras Putri,pras.putri837@email.com,Jl. Sudirman No.107,Yogyakarta,Indonesia,F
+163,Siti Wibowo,siti.wibowo515@email.com,Jl. Ahmad Yani No.21,Makassar,Indonesia,M
+164,Hendra Putri,hendra.putri29@email.com,Jl. Diponegoro No.38,Makassar,Indonesia,M
+165,Rizki Wijaya,rizki.wijaya294@email.com,Jl. Gatot Subroto No.195,Tangerang,Indonesia,F
+166,Tini Suryadi,tini.suryadi460@email.com,Jl. Sudirman No.5,Malang,Indonesia,M
+167,Dian Setiawan,dian.setiawan856@email.com,Jl. Sudirman No.199,Bandung,Indonesia,F
+168,Fajar Putri,fajar.putri309@email.com,Jl. Gatot Subroto No.108,Surabaya,Indonesia,M
+169,Rini Firmansyah,rini.firmansyah65@email.com,Jl. Merdeka No.138,Surabaya,Indonesia,F
+170,Budi Purnama,budi.purnama589@email.com,Jl. Diponegoro No.110,Medan,Indonesia,M
+171,Budi Hartono,budi.hartono247@email.com,Jl. Gatot Subroto No.171,Malang,Indonesia,F
+172,Eko Susanto,eko.susanto537@email.com,Jl. Merdeka No.140,Makassar,Indonesia,M
+173,Fitri Purnama,fitri.purnama568@email.com,Jl. Ahmad Yani No.12,Jakarta,Indonesia,F
+174,Rini Wibowo,rini.wibowo383@email.com,Jl. Diponegoro No.18,Semarang,Indonesia,M
+175,Hendra Putri,hendra.putri751@email.com,Jl. Merdeka No.189,Pekanbaru,Indonesia,M
+176,Ratna Pratama,ratna.pratama137@email.com,Jl. Merdeka No.87,Jakarta,Indonesia,F
+177,Citra Hidayat,citra.hidayat851@email.com,Jl. Ahmad Yani No.162,Bogor,Indonesia,F
+178,Nur Kusuma,nur.kusuma65@email.com,Jl. Sudirman No.76,Batam,Indonesia,F
+179,Andi Wijaya,andi.wijaya811@email.com,Jl. Diponegoro No.80,Medan,Indonesia,M
+180,Fitri Wibowo,fitri.wibowo835@email.com,Jl. Diponegoro No.10,Palembang,Indonesia,F
+181,Ratna Setiawan,ratna.setiawan293@email.com,Jl. Diponegoro No.70,Makassar,Indonesia,M
+182,Dewi Hartono,dewi.hartono448@email.com,Jl. Ahmad Yani No.99,Tangerang,Indonesia,F
+183,Rina Hidayat,rina.hidayat509@email.com,Jl. Diponegoro No.133,Batam,Indonesia,F
+184,Dian Susanto,dian.susanto745@email.com,Jl. Ahmad Yani No.155,Denpasar,Indonesia,M
+185,Citra Hidayat,citra.hidayat559@email.com,Jl. Sudirman No.21,Semarang,Indonesia,F
+186,Rina Nugroho,rina.nugroho314@email.com,Jl. Gatot Subroto No.177,Yogyakarta,Indonesia,F
+187,Lina Hartono,lina.hartono458@email.com,Jl. Merdeka No.112,Jakarta,Indonesia,F
+188,Dian Wijaya,dian.wijaya77@email.com,Jl. Diponegoro No.132,Pekanbaru,Indonesia,F
+189,Hadi Hidayat,hadi.hidayat976@email.com,Jl. Merdeka No.174,Jakarta,Indonesia,M
+190,Hadi Firmansyah,hadi.firmansyah36@email.com,Jl. Gatot Subroto No.200,Bandung,Indonesia,M
+191,Rini Hartono,rini.hartono371@email.com,Jl. Merdeka No.40,Denpasar,Indonesia,M
+192,Eko Firmansyah,eko.firmansyah972@email.com,Jl. Ahmad Yani No.196,Makassar,Indonesia,F
+193,Ahmad Kusuma,ahmad.kusuma543@email.com,Jl. Diponegoro No.167,Makassar,Indonesia,F
+194,Dian Putri,dian.putri984@email.com,Jl. Gatot Subroto No.128,Surabaya,Indonesia,M
+195,Fitri Wibowo,fitri.wibowo936@email.com,Jl. Diponegoro No.199,Palembang,Indonesia,M
+196,Dian Firmansyah,dian.firmansyah220@email.com,Jl. Ahmad Yani No.52,Malang,Indonesia,F
+197,Dewi Kusuma,dewi.kusuma874@email.com,Jl. Gatot Subroto No.183,Surabaya,Indonesia,F
+198,Lina Susanto,lina.susanto830@email.com,Jl. Diponegoro No.182,Pekanbaru,Indonesia,F
+199,Ahmad Nugroho,ahmad.nugroho913@email.com,Jl. Gatot Subroto No.93,Semarang,Indonesia,M
+200,Fitri Putri,fitri.putri125@email.com,Jl. Gatot Subroto No.127,Medan,Indonesia,M

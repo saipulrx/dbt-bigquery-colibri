@@ -1,0 +1,201 @@
+product_id_integer,product_name,product_category,product_subcategory,merk,unit_price,qty
+1,Apple Fitness Equipment 381,Sports,Fitness Equipment,Apple,410000,379
+2,Asus Audio 204,Electronics,Audio,Asus,785000,377
+3,Somethinc Fitness Equipment 704,Sports,Fitness Equipment,Somethinc,4775000,44
+4,Samsung Footwear 323,Fashion,Footwear,Samsung,262000,47
+5,IKEA Audio 674,Electronics,Audio,IKEA,2725000,13
+6,Somethinc Audio 658,Electronics,Audio,Somethinc,2926000,359
+7,Asus Footwear 384,Fashion,Footwear,Asus,1142000,301
+8,Aqua Skincare 925,Beauty,Skincare,Aqua,57000,388
+9,Somethinc Accessories 384,Electronics,Accessories,Somethinc,272000,174
+10,Asus Accessories 204,Electronics,Accessories,Asus,450000,172
+11,Adidas Laptops 967,Electronics,Laptops,Adidas,8245000,183
+12,Tupperware Women Clothing 144,Fashion,Women Clothing,Tupperware,377000,413
+13,Uniqlo Sportswear 487,Sports,Sportswear,Uniqlo,1275000,63
+14,IKEA Laptops 743,Electronics,Laptops,IKEA,14837000,424
+15,Zara Kitchen 691,Home & Living,Kitchen,Zara,1907000,185
+16,Somethinc Audio 777,Electronics,Audio,Somethinc,492000,23
+17,Indomie Audio 975,Electronics,Audio,Indomie,1414000,40
+18,Aqua Audio 384,Electronics,Audio,Aqua,624000,194
+19,Wardah Bags 479,Fashion,Bags,Wardah,1680000,83
+20,Asus Women Clothing 818,Fashion,Women Clothing,Asus,803000,136
+21,Wardah Snacks 723,Food & Beverage,Snacks,Wardah,95000,36
+22,Xiaomi Fitness Equipment 350,Sports,Fitness Equipment,Xiaomi,4681000,373
+23,Uniqlo Accessories 755,Electronics,Accessories,Uniqlo,249000,138
+24,IKEA Sportswear 432,Sports,Sportswear,IKEA,611000,350
+25,Indomie Makeup 941,Beauty,Makeup,Indomie,109000,117
+26,Indomie Smartphones 374,Electronics,Smartphones,Indomie,6792000,205
+27,Asus Laptops 835,Electronics,Laptops,Asus,24031000,448
+28,Asus Women Clothing 505,Fashion,Women Clothing,Asus,787000,255
+29,Zara Snacks 246,Food & Beverage,Snacks,Zara,94000,234
+30,Xiaomi Men Clothing 674,Fashion,Men Clothing,Xiaomi,359000,381
+31,Sony Furniture 697,Home & Living,Furniture,Sony,7688000,459
+32,Nike Footwear 621,Fashion,Footwear,Nike,660000,70
+33,Apple Bags 212,Fashion,Bags,Apple,348000,440
+34,Wardah Accessories 796,Electronics,Accessories,Wardah,134000,405
+35,Tupperware Footwear 490,Fashion,Footwear,Tupperware,333000,197
+36,Uniqlo Kitchen 666,Home & Living,Kitchen,Uniqlo,1210000,128
+37,Samsung Makeup 649,Beauty,Makeup,Samsung,170000,349
+38,Sony Skincare 214,Beauty,Skincare,Sony,722000,174
+39,Adidas Men Clothing 103,Fashion,Men Clothing,Adidas,266000,232
+40,Zara Sportswear 612,Sports,Sportswear,Zara,702000,497
+41,Xiaomi Skincare 208,Beauty,Skincare,Xiaomi,582000,467
+42,Wardah Makeup 754,Beauty,Makeup,Wardah,363000,430
+43,Tupperware Furniture 482,Home & Living,Furniture,Tupperware,3837000,78
+44,Xiaomi Skincare 897,Beauty,Skincare,Xiaomi,616000,488
+45,IKEA Snacks 431,Food & Beverage,Snacks,IKEA,10000,306
+46,Samsung Bags 471,Fashion,Bags,Samsung,619000,475
+47,Aqua Snacks 159,Food & Beverage,Snacks,Aqua,50000,122
+48,Zara Audio 180,Electronics,Audio,Zara,2580000,484
+49,Somethinc Laptops 170,Electronics,Laptops,Somethinc,21307000,417
+50,IKEA Skincare 775,Beauty,Skincare,IKEA,182000,65
+51,IKEA Bags 640,Fashion,Bags,IKEA,843000,135
+52,Tupperware Makeup 316,Beauty,Makeup,Tupperware,494000,493
+53,IKEA Snacks 419,Food & Beverage,Snacks,IKEA,36000,365
+54,Wardah Footwear 548,Fashion,Footwear,Wardah,1563000,191
+55,IKEA Snacks 353,Food & Beverage,Snacks,IKEA,69000,61
+56,Apple Audio 702,Electronics,Audio,Apple,1618000,10
+57,Asus Furniture 172,Home & Living,Furniture,Asus,4195000,3
+58,Wardah Sportswear 169,Sports,Sportswear,Wardah,273000,117
+59,Samsung Snacks 626,Food & Beverage,Snacks,Samsung,53000,36
+60,Sony Audio 652,Electronics,Audio,Sony,2236000,109
+61,Somethinc Accessories 584,Electronics,Accessories,Somethinc,349000,295
+62,Indomie Audio 516,Electronics,Audio,Indomie,2184000,413
+63,Apple Audio 541,Electronics,Audio,Apple,607000,337
+64,Adidas Women Clothing 984,Fashion,Women Clothing,Adidas,531000,239
+65,Samsung Sportswear 512,Sports,Sportswear,Samsung,356000,31
+66,Nike Sportswear 296,Sports,Sportswear,Nike,379000,127
+67,IKEA Audio 532,Electronics,Audio,IKEA,2082000,71
+68,Sony Accessories 995,Electronics,Accessories,Sony,293000,127
+69,Apple Snacks 982,Food & Beverage,Snacks,Apple,68000,413
+70,IKEA Makeup 767,Beauty,Makeup,IKEA,153000,25
+71,Aqua Furniture 195,Home & Living,Furniture,Aqua,748000,496
+72,Indomie Snacks 516,Food & Beverage,Snacks,Indomie,41000,85
+73,Uniqlo Bags 510,Fashion,Bags,Uniqlo,1047000,442
+74,Samsung Snacks 102,Food & Beverage,Snacks,Samsung,32000,194
+75,Sony Footwear 565,Fashion,Footwear,Sony,1844000,401
+76,Adidas Men Clothing 835,Fashion,Men Clothing,Adidas,683000,338
+77,Xiaomi Bags 322,Fashion,Bags,Xiaomi,946000,151
+78,Tupperware Smartphones 162,Electronics,Smartphones,Tupperware,13844000,277
+79,Nike Sportswear 698,Sports,Sportswear,Nike,270000,25
+80,IKEA Bags 158,Fashion,Bags,IKEA,2378000,80
+81,Apple Furniture 709,Home & Living,Furniture,Apple,3618000,35
+82,Wardah Laptops 222,Electronics,Laptops,Wardah,12892000,206
+83,Tupperware Snacks 708,Food & Beverage,Snacks,Tupperware,42000,296
+84,Tupperware Smartphones 773,Electronics,Smartphones,Tupperware,2875000,214
+85,Tupperware Kitchen 367,Home & Living,Kitchen,Tupperware,1196000,161
+86,Wardah Audio 371,Electronics,Audio,Wardah,1518000,122
+87,Xiaomi Footwear 407,Fashion,Footwear,Xiaomi,1609000,330
+88,Nike Bags 569,Fashion,Bags,Nike,454000,4
+89,Tupperware Kitchen 650,Home & Living,Kitchen,Tupperware,310000,37
+90,IKEA Audio 457,Electronics,Audio,IKEA,1312000,67
+91,Apple Snacks 391,Food & Beverage,Snacks,Apple,42000,189
+92,Uniqlo Accessories 820,Electronics,Accessories,Uniqlo,487000,278
+93,Tupperware Men Clothing 108,Fashion,Men Clothing,Tupperware,786000,270
+94,Aqua Fitness Equipment 779,Sports,Fitness Equipment,Aqua,4852000,153
+95,Zara Laptops 218,Electronics,Laptops,Zara,9506000,135
+96,Apple Snacks 378,Food & Beverage,Snacks,Apple,83000,79
+97,Tupperware Men Clothing 451,Fashion,Men Clothing,Tupperware,321000,367
+98,Wardah Audio 370,Electronics,Audio,Wardah,2860000,436
+99,Uniqlo Furniture 966,Home & Living,Furniture,Uniqlo,4713000,463
+100,Apple Smartphones 949,Electronics,Smartphones,Apple,12142000,216
+101,Samsung Men Clothing 889,Fashion,Men Clothing,Samsung,104000,170
+102,Wardah Accessories 859,Electronics,Accessories,Wardah,187000,82
+103,IKEA Bags 109,Fashion,Bags,IKEA,1944000,287
+104,Apple Laptops 136,Electronics,Laptops,Apple,10001000,279
+105,Nike Makeup 230,Beauty,Makeup,Nike,205000,220
+106,Sony Smartphones 915,Electronics,Smartphones,Sony,7618000,460
+107,Samsung Makeup 798,Beauty,Makeup,Samsung,425000,107
+108,Wardah Audio 898,Electronics,Audio,Wardah,631000,181
+109,Zara Furniture 735,Home & Living,Furniture,Zara,7318000,498
+110,Xiaomi Sportswear 266,Sports,Sportswear,Xiaomi,646000,442
+111,Indomie Skincare 522,Beauty,Skincare,Indomie,236000,451
+112,Xiaomi Smartphones 440,Electronics,Smartphones,Xiaomi,13858000,473
+113,Zara Skincare 785,Beauty,Skincare,Zara,482000,410
+114,Somethinc Makeup 263,Beauty,Makeup,Somethinc,310000,136
+115,Somethinc Skincare 993,Beauty,Skincare,Somethinc,163000,195
+116,Aqua Smartphones 304,Electronics,Smartphones,Aqua,9397000,113
+117,Zara Makeup 412,Beauty,Makeup,Zara,533000,179
+118,Indomie Makeup 124,Beauty,Makeup,Indomie,289000,114
+119,Asus Fitness Equipment 385,Sports,Fitness Equipment,Asus,3543000,168
+120,Apple Makeup 756,Beauty,Makeup,Apple,343000,179
+121,Adidas Furniture 128,Home & Living,Furniture,Adidas,9496000,169
+122,Zara Laptops 694,Electronics,Laptops,Zara,13765000,91
+123,Samsung Men Clothing 544,Fashion,Men Clothing,Samsung,214000,305
+124,Somethinc Women Clothing 546,Fashion,Women Clothing,Somethinc,925000,160
+125,IKEA Kitchen 690,Home & Living,Kitchen,IKEA,343000,197
+126,Sony Audio 546,Electronics,Audio,Sony,386000,362
+127,IKEA Smartphones 836,Electronics,Smartphones,IKEA,10534000,351
+128,Somethinc Sportswear 541,Sports,Sportswear,Somethinc,563000,186
+129,Wardah Laptops 421,Electronics,Laptops,Wardah,16080000,319
+130,Aqua Fitness Equipment 407,Sports,Fitness Equipment,Aqua,1245000,368
+131,Sony Furniture 512,Home & Living,Furniture,Sony,7352000,167
+132,Sony Sportswear 296,Sports,Sportswear,Sony,1313000,65
+133,Wardah Footwear 866,Fashion,Footwear,Wardah,995000,346
+134,Xiaomi Snacks 408,Food & Beverage,Snacks,Xiaomi,91000,291
+135,IKEA Footwear 411,Fashion,Footwear,IKEA,1948000,0
+136,Asus Men Clothing 693,Fashion,Men Clothing,Asus,551000,402
+137,Wardah Kitchen 552,Home & Living,Kitchen,Wardah,776000,238
+138,Wardah Bags 584,Fashion,Bags,Wardah,1046000,261
+139,Zara Skincare 186,Beauty,Skincare,Zara,228000,337
+140,IKEA Men Clothing 734,Fashion,Men Clothing,IKEA,796000,324
+141,Apple Women Clothing 869,Fashion,Women Clothing,Apple,958000,487
+142,Wardah Audio 925,Electronics,Audio,Wardah,1502000,115
+143,Xiaomi Audio 350,Electronics,Audio,Xiaomi,302000,23
+144,Tupperware Bags 524,Fashion,Bags,Tupperware,455000,233
+145,Wardah Snacks 835,Food & Beverage,Snacks,Wardah,85000,99
+146,Adidas Sportswear 349,Sports,Sportswear,Adidas,1187000,204
+147,Wardah Accessories 868,Electronics,Accessories,Wardah,411000,2
+148,Indomie Makeup 535,Beauty,Makeup,Indomie,162000,398
+149,Xiaomi Audio 151,Electronics,Audio,Xiaomi,2372000,237
+150,Asus Furniture 236,Home & Living,Furniture,Asus,2536000,233
+151,Uniqlo Skincare 672,Beauty,Skincare,Uniqlo,750000,271
+152,Nike Kitchen 553,Home & Living,Kitchen,Nike,1684000,456
+153,Aqua Kitchen 616,Home & Living,Kitchen,Aqua,1608000,456
+154,Aqua Footwear 262,Fashion,Footwear,Aqua,1349000,228
+155,Aqua Sportswear 365,Sports,Sportswear,Aqua,1145000,230
+156,Asus Skincare 884,Beauty,Skincare,Asus,719000,141
+157,IKEA Skincare 344,Beauty,Skincare,IKEA,558000,320
+158,Uniqlo Men Clothing 392,Fashion,Men Clothing,Uniqlo,181000,365
+159,Sony Audio 653,Electronics,Audio,Sony,1609000,163
+160,Xiaomi Laptops 492,Electronics,Laptops,Xiaomi,10061000,118
+161,Xiaomi Sportswear 524,Sports,Sportswear,Xiaomi,599000,32
+162,Nike Footwear 525,Fashion,Footwear,Nike,1338000,238
+163,Asus Smartphones 888,Electronics,Smartphones,Asus,8549000,199
+164,Somethinc Kitchen 883,Home & Living,Kitchen,Somethinc,141000,438
+165,Adidas Kitchen 460,Home & Living,Kitchen,Adidas,1100000,3
+166,Indomie Men Clothing 955,Fashion,Men Clothing,Indomie,509000,436
+167,IKEA Footwear 659,Fashion,Footwear,IKEA,1768000,376
+168,Tupperware Skincare 324,Beauty,Skincare,Tupperware,281000,249
+169,Adidas Men Clothing 498,Fashion,Men Clothing,Adidas,609000,14
+170,Wardah Women Clothing 514,Fashion,Women Clothing,Wardah,812000,408
+171,Xiaomi Sportswear 230,Sports,Sportswear,Xiaomi,1130000,470
+172,IKEA Kitchen 503,Home & Living,Kitchen,IKEA,157000,464
+173,Tupperware Kitchen 185,Home & Living,Kitchen,Tupperware,1490000,13
+174,Adidas Fitness Equipment 572,Sports,Fitness Equipment,Adidas,1338000,443
+175,Samsung Accessories 435,Electronics,Accessories,Samsung,186000,194
+176,Uniqlo Audio 879,Electronics,Audio,Uniqlo,1571000,172
+177,Adidas Snacks 951,Food & Beverage,Snacks,Adidas,46000,385
+178,Sony Footwear 581,Fashion,Footwear,Sony,1951000,41
+179,Somethinc Smartphones 458,Electronics,Smartphones,Somethinc,10550000,26
+180,Wardah Audio 767,Electronics,Audio,Wardah,488000,399
+181,Indomie Smartphones 353,Electronics,Smartphones,Indomie,2021000,486
+182,Aqua Audio 256,Electronics,Audio,Aqua,285000,318
+183,Xiaomi Audio 217,Electronics,Audio,Xiaomi,2186000,342
+184,Asus Kitchen 362,Home & Living,Kitchen,Asus,1075000,358
+185,Nike Skincare 721,Beauty,Skincare,Nike,226000,310
+186,Somethinc Sportswear 938,Sports,Sportswear,Somethinc,390000,398
+187,Sony Accessories 126,Electronics,Accessories,Sony,107000,296
+188,Sony Snacks 484,Food & Beverage,Snacks,Sony,85000,346
+189,Somethinc Footwear 706,Fashion,Footwear,Somethinc,616000,38
+190,Aqua Sportswear 204,Sports,Sportswear,Aqua,1465000,124
+191,Indomie Sportswear 800,Sports,Sportswear,Indomie,782000,435
+192,Indomie Kitchen 679,Home & Living,Kitchen,Indomie,354000,407
+193,Samsung Skincare 538,Beauty,Skincare,Samsung,414000,272
+194,Nike Fitness Equipment 763,Sports,Fitness Equipment,Nike,778000,259
+195,Samsung Women Clothing 942,Fashion,Women Clothing,Samsung,991000,215
+196,Apple Bags 470,Fashion,Bags,Apple,1968000,491
+197,Zara Fitness Equipment 256,Sports,Fitness Equipment,Zara,4057000,362
+198,Xiaomi Footwear 766,Fashion,Footwear,Xiaomi,1739000,267
+199,Tupperware Men Clothing 595,Fashion,Men Clothing,Tupperware,664000,396
+200,Adidas Bags 430,Fashion,Bags,Adidas,2635000,137

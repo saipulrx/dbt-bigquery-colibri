@@ -1,0 +1,16 @@
+category_id,product_category,product_subcategory,category_description,is_active
+1,Electronics,Smartphones,Perangkat komunikasi genggam,true
+2,Electronics,Laptops,Komputer portabel,true
+3,Electronics,Accessories,Aksesori elektronik,true
+4,Electronics,Audio,"Headphone, speaker, earbuds",true
+5,Fashion,Men Clothing,Pakaian pria,true
+6,Fashion,Women Clothing,Pakaian wanita,true
+7,Fashion,Footwear,Sepatu dan sandal,true
+8,Fashion,Bags,Tas dan dompet,true
+9,Home & Living,Furniture,"Meja, kursi, lemari",true
+10,Home & Living,Kitchen,Peralatan dapur,true
+11,Sports,Fitness Equipment,Alat olahraga dalam ruangan,true
+12,Sports,Sportswear,Pakaian dan sepatu olahraga,true
+13,Beauty,Skincare,Produk perawatan kulit,true
+14,Beauty,Makeup,Produk kosmetik dan riasan,true
+15,Food & Beverage,Snacks,Makanan ringan kemasan,true
