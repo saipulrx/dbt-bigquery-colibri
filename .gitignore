@@ -17,12 +17,14 @@ __pycache__/
 # ── dbt artifacts ───────────────────────────────────────────────────────────
 target/
 dbt_packages/
+dbt_internal_packages/
 logs/
 dist/
 
 # ── IDE / Editor ────────────────────────────────────────────────────────────
 .vscode/
 .idea/
+.claude/
 *.swp
 .DS_Store
 
